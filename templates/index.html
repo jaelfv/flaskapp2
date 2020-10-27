@@ -1,0 +1,6 @@
+{% extends 'base.html' %}
+{% block title %}Index template{% endblock title %}
+{% block main %}
+  <h2>This is a child template.index</h2>
+  <img src={{url_for('static', filename='log.jpeg')}} />
+{% endblock main %}
